@@ -1,0 +1,71 @@
+
+body {
+	background-color: lightblue;
+	width: 97%;
+	}
+
+.boss{
+	text-align: center;
+	font-size: 1em;
+	max-width: 100%;
+}
+
+
+article, nav, aside{
+	float:left;
+	min-height: 100%;
+	text-align: center;
+
+}
+
+nav{
+	width: 25%;
+	background-color: lightgrey;
+	margin-right: 0.2em;
+	margin-left: 2em;
+	text-align: center;
+
+}
+
+ul{
+	background-color: white;
+	border-radius: .4em;
+	list-style: none;
+}
+
+article{
+	width: 45%;
+	background-color: #bada55;
+	border-radius: 0.4em;
+}
+
+p{
+	background-color: white;
+	border-radius: 0.4em;
+	padding: 1em;
+}
+
+h1, h2, h3, p{
+	padding: .6em;
+}
+
+aside{
+	width: 25%;
+	border-radius: 0.4em;
+	margin-left: 0.2em;
+	background-color: lightgrey;
+}
+
+@media  (max-width: 1150px) {
+
+nav,article,aside, .boss{
+
+	width: 98%;
+	position: center;
+	margin-left: 1%;
+	/*margin-right: .6em;
+	margin-left: .6em;*/
+
+}
+
+}
